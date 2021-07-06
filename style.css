@@ -6,6 +6,7 @@ body{
 .common-width{
     width: 1250px;
     margin: auto;
+    padding-bottom: 70px;
 }
 .flexible-item{
     display: flex;
@@ -99,8 +100,8 @@ body{
 .recipies-details{
     width: 33%;
     border-radius: 20px;
-    box-shadow: 10px 22px 149px #cecdcd;
-    margin: 20px;
+    box-shadow: 10px 22px 70px #cecdcd;
+    margin: 14px;
 }
 .recipies-details img{
     width: 337px;
@@ -123,4 +124,32 @@ body{
     color: #18191F;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.counter{
+    padding: 68px 0;
+    border-radius: 20px;
+    box-shadow: 10px 22px 70px #cecdcd;
+    margin-top: 70px;
+    display: flex;
+    margin: auto;
+}
+
+.counter-item{
+    width: 33%;
+    text-align: center;
+}
+.counter-item h2{
+    color: #18191F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+.counter-item p{
+    color: #18191F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
 }
