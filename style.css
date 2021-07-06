@@ -73,3 +73,54 @@ body{
     width: 70%;
 }
 
+.my-recipies{
+    text-align: center;
+}
+.my-recipies h2{
+    font-size: 50px;
+    color: #707070;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.my-recipies p{
+    font-size: 18px;
+    color: #18191F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 43px;
+}
+
+.recipies-item{
+    display: flex;
+    margin: auto;
+}
+
+.recipies-details{
+    width: 33%;
+    border-radius: 20px;
+    box-shadow: 10px 22px 149px #cecdcd;
+    margin: 20px;
+}
+.recipies-details img{
+    width: 337px;
+    height: 256px;
+    border-radius:20px;
+    margin: 28px;
+}
+
+.recipies-details h3{
+    font-size: 28px;
+    margin-left: 28px;
+    color: #18191F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.recipies-details p{
+    font-size: 18px;
+    margin-left: 28px;
+    color: #18191F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
