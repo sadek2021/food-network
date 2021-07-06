@@ -164,7 +164,7 @@ body{
 .recipies-details h3{
     font-size: 28px;
     margin-left: 28px;
-    color: #18191F;
+    color: #707070;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -172,7 +172,7 @@ body{
 .recipies-details p{
     font-size: 18px;
     margin-left: 28px;
-    color: #18191F;
+    color: #707070;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-bottom: 20px;
@@ -192,7 +192,7 @@ body{
     text-align: center;
 }
 .counter-item h2{
-    color: #18191F;
+    color: #707070;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -202,6 +202,54 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+
+.contact-form{
+    margin-top: 125px;
+    height: 333px;
+}
+
+.form-content{
+    display: flex;
+    padding-top: 15px;
+}
+
+.form-left{
+    width: 50%;
+}
+
+.form-right{
+    width: 50%;
+}
+
+.form-left input{
+    height: 40px;
+    width: 500px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+}
+
+.form-right textarea{
+    width: 600px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 7px 7px;
+    border: 0;
+    border: 1px solid #828282;
+    border-radius: 5px;
+}
+
+.form-right button{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 40px;
+    color: white;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 footer{
